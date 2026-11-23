@@ -1,0 +1,106 @@
+
+/*
+CSS created by Thegreatone1 #587610
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://i.ibb.co/KxPQQsRW/Screenshot-20261123-125442-2.jpg") center center fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-color: black !important;
+}
+
+.main {
+  background: transparent !important;
+  color: white !important;
+}
+
+.container.main {
+  background: transparent !important;
+}
+
+.col-md-9.col-xs-12 {
+  background: transparent !important;
+}
+
+/* Make Den Text White */
+.main {
+  color: white !important;
+}
+
+.main p,
+.main span,
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main td,
+.main th,
+.main label,
+.main a {
+  color: white !important;
+}
+
+/* Stronger White Text */
+.col-md-9.col-xs-12,
+.col-md-9.col-xs-12 * {
+  color: white !important;
+  text-shadow: 1px 1px 3px black !important;
+}
+
+/* Lion Box */
+.lion-box {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.lion-box h2 {
+  color: white !important;
+  font-size: 28px;
+  text-shadow: 0 0 8px white;
+  margin-top: 0;
+}
+
+.lion-box p {
+  color: white !important;
+  font-size: 16px;
+  text-shadow: 0 0 5px black;
+  line-height: 1.6;
+}
+
+/* Golden Beetles */
+img[src$="icon-beetle-gold.png"] {
+  content: url("https://i.ibb.co/MkTNsdbY/70551cf7d2d3ccbacf2ae7780e634a50-christmas-tree-icon.png") !important;
+  width: 20px !important;
+}
+
+/* Silver Beetles */
+img[src$="icon-beetle-silver.png"] {
+  content: url("https://i.ibb.co/MkTNsdbY/70551cf7d2d3ccbacf2ae7780e634a50-christmas-tree-icon.png") !important;
+  width: 20px !important;
+}
+
+/* Side Icon */
+body::before {
+  content: "";
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  width: 120px;
+  height: 180px;
+  background: url("https://i.ibb.co/PsKwd4PW/file-00000000782c81fdb09392bc9fec31fd.png")
+    center / contain no-repeat;
+  transform: translateY(-50%);
+  z-index: 10;
+  pointer-events: none;
+}
